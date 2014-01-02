@@ -1,0 +1,45 @@
+<html>
+     <head><link rel="stylesheet" type="text/css" href="assets/css/style.css"></head>
+     <title>Bible</title>
+     <body> 
+     <img src = "assets/images/background.jpg" id = "bg">
+          <div id = "bookOverlay"></div>
+          <div class = "book">
+               <button id = "bookList">Book</button>
+               <button id = "chapter" class = "navButton">Chapter</button>
+               <button id = "verse" class = "navButton">Verse</button>
+               <div id = "selector">
+               </div>
+          </div>
+          <div id = "searchOverlay"></div>
+          <div class = "search">
+               <input type="text" name="text1" size="12" id = "inputSearch" onkeyup = "typeSearch()">
+               <button id = search>Search</button>
+               <input type = "radio" name = "filter" value = "all" checked id = "all"> All<br>
+               <input type = "radio" name = "filter" value = "New" id = "old"> Old Testament<br>
+               <input type = "radio" name = "filter" value = "Old" id = "new">New Testament<br>        
+                       <div id = "results">
+               </div>
+          </div>
+          <div>
+               <div class = "header">
+                    <div id = "title">Online Digital Bible</div>
+                    <ul class = "menu">
+                         <li class = "menuBook"><a href="#" id = "bookBtn"><img src="assets/images/book.png"></a></li>
+                         <li class = "menuSearch"><a href="#" id = "searchBtn"><img src="assets/images/Search.png"></a></li>
+                    </ul>
+               </div>
+               <div class = "content">
+                    <div id = "sitas"></div>        
+                    <div id = "phrase">sample</div>
+               </div>
+          </div>
+          <div class = "footer">
+               <a href="#" id = "back"><img src="assets/images/back.png"></a>
+               <a href="#" id = "forward"><img src="assets/images/forward.png"></a>
+          </div>
+     </body>
+     <script src="assets/js/jquery.js"></script>
+     <script src="assets/js/ajax.js"></script>
+     <script src="assets/js/navigator.js"></script>
+</html>
