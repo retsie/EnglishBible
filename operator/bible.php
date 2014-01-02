@@ -247,9 +247,9 @@ class Bible {
                               $bookname = $row['BookName'];
                               $json = "{
                                    \"bookname\" : \"".$bookname."\",
-                                   \"book\" : ".$book_id.",
-                                   \"chapter\" : ".$chapter.",
-                                   \"verse\" : ".$verse.",
+                                   \"book\" : 1,
+                                   \"chapter\" : 1,
+                                   \"verse\" : 1,
                                    \"phrase\" : \"".$phrase."\"
                               }";
                               echo $json;
