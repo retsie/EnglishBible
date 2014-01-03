@@ -81,6 +81,14 @@
      border: 1px solid  #1e90ff;
      color: white;
 }
+#bookBtn{
+     outline: none;
+     border: 0;
+}
+#searchBtn{
+     outline: none;
+     border: 0;
+}
 #bookOverlay{
      display: none;
      position: fixed;
@@ -174,9 +182,13 @@
 }
 #back{
      margin-left: 35%;
+     outline: none;
+     border: 0;
 }
 #forward{
      margin-left: 28%;
+     outline: none;
+     border: 0;
 }
 .tile{
      margin-left: 1px;
